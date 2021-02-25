@@ -61,8 +61,6 @@ jobs:
       - name: Run processing pipeline
         shell: bash -l {0}
         env:
-          AWS_KEY: ${{ secrets.AWS_KEY }}
-          AWS_SECRET: ${{ secrets.AWS_SECRET }}
           OOI_USERNAME: ${{ secrets.OOI_USERNAME }}
           OOI_TOKEN: ${{ secrets.OOI_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
