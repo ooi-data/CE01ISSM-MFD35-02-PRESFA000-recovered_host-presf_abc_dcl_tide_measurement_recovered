@@ -2,6 +2,9 @@ name: Data Request
 
 # Request on monthly basis by default on refresh
 on:
+  push:
+    paths:
+      - "config.yaml"
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
