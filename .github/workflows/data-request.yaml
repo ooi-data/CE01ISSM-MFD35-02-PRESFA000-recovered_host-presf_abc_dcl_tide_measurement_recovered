@@ -1,12 +1,12 @@
 name: Data Request
 
-# Request on monthly basis by default on refresh
+# Request on Aug and Jan by default on refresh
 on:
   push:
     paths:
       - "config.yaml"
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 1 */7 *"
   workflow_dispatch:
 
 env:
