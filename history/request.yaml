@@ -1,5 +1,5 @@
-data_ready: true
+data_ready: false
 data_stream: CE01ISSM-MFD35-02-PRESFA000-recovered_host-presf_abc_dcl_tide_measurement_recovered
-last_request: '2021-12-04T01:03:55.721653Z'
+last_request: '2021-12-21T23:17:39.469839Z'
 response: https://raw.githubusercontent.com/ooi-data/CE01ISSM-MFD35-02-PRESFA000-recovered_host-presf_abc_dcl_tide_measurement_recovered/main/history/response.json
-status: success
+status: pending
